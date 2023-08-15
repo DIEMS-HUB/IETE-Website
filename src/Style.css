@@ -1,6 +1,6 @@
 html {
     
-    --imp-text-color: #c770f0;
+    --imp-text-color: rgba(255, 17, 17, 0.959);
   }
   
   .purple {
@@ -35,18 +35,18 @@ html {
   
   /* Track */
   ::-webkit-scrollbar-track {
-    background: #2d1950;
+    background: #ffffff;
   }
   
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: rgba(178, 121, 216, 0.959);
+    background: rgba(255, 17, 17, 0.959);
     border-radius: 12px;
   }
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: rgba(222, 130, 235, 0.911);
+    background: rgba(254, 185, 185, 0.959);
     border-radius: 12px;
   }
   
@@ -374,7 +374,7 @@ html {
   }
   
   .icon-colour {
-    color: #700c86 !important;
+    color: rgba(255, 17, 17, 0.959) !important;
   }
   
   /* --------- */
