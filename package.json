@@ -19,6 +19,11 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.10.1",
     "react-router-dom": "^6.15.0",
+<<<<<<< HEAD
+=======
+    "react-scripts": "^5.0.1",
+    "styled-components": "^6.0.7",
+>>>>>>> 3ae1283f2a7e96fd0d9c8025130650fa59c3ac54
     "react-scripts": "5.0.1",
     "react-tsparticles": "^2.12.2",
     "typewriter-effect": "^2.20.1",

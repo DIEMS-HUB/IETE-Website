@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../src/assets/websitelogo.png";
 import Type from "./Type";
 import Particle from "./Particles";
-
+import Home2 from "./Home2";
 
 function Home() {
   return (
@@ -24,7 +24,7 @@ function Home() {
               
               <h1 className="heading-name">
                 Welcome to 
-                <strong className="main-name"> Institute of Electronics and Telecommunication Engineering DIEMS  ISF</strong>
+                <strong className="main-name"> Institute of Electronics and Telecommunication Engineers DIEMS  ISF</strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
@@ -34,6 +34,7 @@ function Home() {
           </Row>
         </Container>
       </Container>
+      <Home2/>
     </section>
   );
 }
