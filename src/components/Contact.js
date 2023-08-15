@@ -47,8 +47,8 @@ class Contact extends Component {
 
           <div className="mt-3">
             <span>
-              <p className="mb-0">Email: somethinganything@co.in</p>
-              <p className="mt-0">Telephone: xxxxx xxxxx</p>
+              <p className="mb-0">Email: somethinganything@diems.in</p>
+              <p className="mt-0">Telephone: 54512 57412</p>
             </span>
           </div>
         </Form>
