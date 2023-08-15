@@ -1,6 +1,8 @@
 {
   "name": "iete-diems",
+  "homepage": ".",
   "version": "0.1.0",
+  "proxy": "https://diems-hub.github.io/IETE-Website",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.4.2",
@@ -11,18 +13,27 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.3.1",
+    "gh-pages": "^6.0.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.8.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.10.1",
     "react-router-dom": "^6.15.0",
+<<<<<<< HEAD
     "react-scripts": "^5.0.1",
     "styled-components": "^6.0.7",
+=======
+    "react-scripts": "5.0.1",
+    "react-tsparticles": "^2.12.2",
+    "typewriter-effect": "^2.20.1",
+>>>>>>> a8b20602321d168bfcf22103b19caf84d066d4cb
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
