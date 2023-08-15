@@ -19,14 +19,11 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.10.1",
     "react-router-dom": "^6.15.0",
-<<<<<<< HEAD
     "react-scripts": "^5.0.1",
     "styled-components": "^6.0.7",
-=======
     "react-scripts": "5.0.1",
     "react-tsparticles": "^2.12.2",
     "typewriter-effect": "^2.20.1",
->>>>>>> a8b20602321d168bfcf22103b19caf84d066d4cb
     "web-vitals": "^2.1.4"
   },
   "scripts": {
