@@ -15,11 +15,11 @@ function Home2() {
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
-          <Col  className="home-about-description">
+          <Col  className="home-about-description" >
             <h1 style={{ fontSize: "2.6em" }}>
               What is  <span className="purple"><b>IETE</b>  </span> ISF ?
             </h1>
-            <p className="home-about-body">
+            <p className="home-about-body" >
               
               <br />
               IETE ISF is a student-driven initiative affiliated with the Institution of Electronics and Telecommunication Engineers (IETE). It aims to empower students by fostering collaborations with leading industry players, organizing industry-centric events, workshops, seminars, and networking opportunities. By bringing students and industry experts together, IETE ISF facilitates knowledge exchange, career development, and innovation in line with the latest industry trends and practices.

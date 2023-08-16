@@ -304,15 +304,16 @@ html {
   
   .home-about-description {
     color: white !important;
-    padding-top: 100px !important;
+    margin-left: 50px;
+    margin-right: 50px;
     padding-bottom: 20px !important;
     text-align: center;
   }
   
   .home-about-body {
-    padding-top: 50px;
+    padding-top: 30px;
     font-size: 1.2em !important;
-    text-align: left;
+    text-align: center;
   }
   
   .home-about-social {
