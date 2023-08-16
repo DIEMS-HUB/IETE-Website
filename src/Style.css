@@ -54,9 +54,9 @@ html {
   /* Navbar Section  */
   /* --------- */
   .sticky {
-    background-color: #1b1a2ea9 !important;
+    background-color: #2e1a1aa9 !important;
     transition: all 0.3s ease-out 0s !important;
-    box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
+    box-shadow: 0px 10px 10px 0px rgba(29, 5, 5, 0.171) !important;
     backdrop-filter: blur(15px) !important;
   }
   
@@ -122,7 +122,7 @@ html {
     .navbar {
       padding: 1rem 2rem !important;
       font-size: 1.4rem !important;
-      background-color: #181a27 !important;
+      background-color: #271818 !important;
     }
     .navbar-nav .nav-item a::after {
       display: none !important;
@@ -304,15 +304,16 @@ html {
   
   .home-about-description {
     color: white !important;
-    padding-top: 100px !important;
+    margin-left: 50px;
+    margin-right: 50px;
     padding-bottom: 20px !important;
     text-align: center;
   }
   
   .home-about-body {
-    padding-top: 50px;
+    padding-top: 30px;
     font-size: 1.2em !important;
-    text-align: left;
+    text-align: center;
   }
   
   .home-about-social {
