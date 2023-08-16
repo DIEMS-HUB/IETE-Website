@@ -440,7 +440,7 @@ html {
   }
   
   .project-card-view {
-    box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
+    box-shadow: 0 4px 5px 3px rgba(228, 42, 42, 0.459) !important;
     color: white !important;
     background-color: transparent !important;
     opacity: 0.9 !important;
@@ -450,7 +450,7 @@ html {
   .project-card-view:hover {
     transform: scale(1.02) !important;
     overflow: hidden !important;
-    box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
+    box-shadow: 0 4px 4px 5px rgba(242, 0, 0, 0.561) !important;
   }
   
   .blog-card {
