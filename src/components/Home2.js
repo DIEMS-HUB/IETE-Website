@@ -3,11 +3,12 @@ import { Container, Row, Col } from "react-bootstrap";
 // import myImg from "../../Assets/myImg.png";
 // import Tilt from "react-parallax-tilt";
 import {
-  AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import About from "./About";
+
 
 function Home2() {
   return (
@@ -27,6 +28,7 @@ function Home2() {
           </Col>
           
         </Row>
+        <About/>
         <Row>
           <Col md={12} className="home-about-social">
             <h1>Social Links</h1>
