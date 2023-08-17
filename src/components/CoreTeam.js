@@ -46,7 +46,6 @@ class CoreTeam extends Component {
                                 ghLink="https://www.linkedin.com/in/renuka-mudhalwadkar-698966253"
                             />
                         </Col>
-                        
                         <Col md={4} className="project-card">
                             <ProjectCard
                                 imgPath={chimni}
