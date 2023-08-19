@@ -11,7 +11,9 @@ Our mission is to educate through workshops, connect minds for innovation, and d
  
 </div>
 <h3>Social media handles : </h3>
-
+<a href="https://instagram.com/iete_diems?igshid=mzrlodbinwflza==" target="_blank">
+    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="Instagram" height="50" width="70" />
+</a>
 
 
 
