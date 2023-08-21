@@ -1,6 +1,6 @@
 ### IETE DIEMS ISF
 
-" Empowering Tomorrow: By Students For Students  "
+<b>Empowering Tomorrow: By Students For Students<b>
 Our mission is to educate through workshops, connect minds for innovation, and drive change. DIEMS IETE ISF nurtures a culture of curiosity, collaboration, and positive tech-driven transformation.
 <h3>What stack is WeMakeDevs built on?</h3>
 <div align="left">
