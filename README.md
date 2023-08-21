@@ -11,7 +11,7 @@ Our mission is to educate through workshops, connect minds for innovation, and d
 
 
  ## Contributins
- Please refer to [contribution guide](https://github.com/jivan3003/IETE-Website/blob/main/contributing.md) before contributing
+ Please refer to [contribution guide](https://github.com/jivan3003/IETE-Website/blob/main/contributing.md) and [Code of conduct](https://github.com/DIEMS-HUB/IETE-Website/blob/main/CODE_OF_CONDUCT.md) before contributing
 </div>
 <h3>Social media handles : </h3>
 <a href="https://instagram.com/iete_diems?igshid=mzrlodbinwflza==" target="_blank">
