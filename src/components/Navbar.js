@@ -86,11 +86,13 @@ function NavBar() {
                 <AiOutlineTeam
                   style={{ marginBottom: "2px" }}
                 />{" "}
-                Core team
+                Core Team
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
+
+            {/*If in future we need a contact page we can just uncomment this part*/}
+            {/* <Nav.Item>
               <Nav.Link
                 as={Link}
                 to="/contact"
@@ -101,7 +103,7 @@ function NavBar() {
                 />{" "}
                 Contact us
               </Nav.Link>
-            </Nav.Item>
+            </Nav.Item> */}
 
             
 
