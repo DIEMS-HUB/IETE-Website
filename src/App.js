@@ -26,8 +26,8 @@ function App() {
           <Route path="/coreteam" element={<CoreTeam />} />
           <Route path="/about" element={<About />} />
           <Route path="*" element={<Navigate to="/" />} />
-
         </Routes>
+        <Footer/>
       </Router>
 
 
