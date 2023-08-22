@@ -1,6 +1,6 @@
 html {
     
-    --imp-text-color: rgba(255, 17, 17, 0.959);
+    --imp-text-color: #FA1632;
   }
   
   .purple {
@@ -40,7 +40,7 @@ html {
   
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: rgba(255, 17, 17, 0.959);
+    background: #FA1632;
     border-radius: 12px;
   }
   
@@ -172,7 +172,7 @@ html {
     height: 5px;
     width: 0;
     border-radius: 16px;
-    background: #ffffff;
+    background: #FA1632;
     bottom: 1px;
     left: 0;
     z-index: -1;
@@ -382,7 +382,7 @@ html {
   /* Footer */
   /* --------- */
   .footer {
-    background-color: rgb(10, 4, 22);
+    background-color:  #FA1632;
     bottom: 0 !important;
     padding-top: 10px !important;
     padding-bottom: 8px !important ;
@@ -419,7 +419,7 @@ html {
   }
   
   .blockquote-footer {
-    color: #a588c0 !important;
+    color: #ffb3b3 !important;
   }
   /* --------- */
   /* Projects */
