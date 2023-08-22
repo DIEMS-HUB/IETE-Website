@@ -37,7 +37,7 @@ function Home2() {
             </p>
             <ul className="home-about-social-links">
               
-              <li className="social-icons">
+              {/* <li className="social-icons">
                 <a
                   href=""
                   target="_blank"
@@ -46,10 +46,10 @@ function Home2() {
                 >
                   <AiOutlineTwitter />
                 </a>
-              </li>
+              </li> */}
               <li className="social-icons">
                 <a
-                  href=""
+                  href="https://www.linkedin.com/company/iete-diems-isf/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -69,6 +69,9 @@ function Home2() {
               </li>
             </ul>
           </Col>
+        </Row>
+        <Row className="home-about-social">
+          <p>Contact: iete@dietms.org</p>
         </Row>
       </Container>
     </Container>
