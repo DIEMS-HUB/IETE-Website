@@ -47,3 +47,4 @@ function Footer() {
 }
 
 export default Footer;
+//this is footer...
