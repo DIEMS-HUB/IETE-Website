@@ -9,6 +9,7 @@ import pratikg from "../assets/coreteam/pratikg.jpeg"
 class CoreTeam extends Component {
     render() {
         return (
+            
             <Container fluid className="project-section">
                 <Container>
                     <h1 className="project-heading" style={{textAlign:"center"}}>
