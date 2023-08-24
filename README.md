@@ -10,7 +10,7 @@ Our mission is to educate through workshops, connect minds for innovation, and d
  <img src="https://img.shields.io/static/v1?message=CSS3&logo=css3&label=&color=1572B6&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="css3 logo"  />
  
 </div>
-<h3>Social media handles: </h3>
+<h3>Social media handles : </h3>
 <a href="https://instagram.com/iete_diems?igshid=mzrlodbinwflza==" target="_blank">
     <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="Instagram" height="30" width="50" />
 </a>
