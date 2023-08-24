@@ -15,7 +15,7 @@ class Events extends Component {
                     src={underconst}
                     alt="Nothing to show here"
                     style={{
-                        maxHeight: "336px", marginTop: "70px", marginBottom: "50px", display: "block",
+                        maxHeight: "332px", marginTop: "70px", marginBottom: "50px", display: "block",
                         marginLeft: "auto",
                         marginRight: "auto"
                     }}

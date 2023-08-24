@@ -3,7 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./Projectcards";
 import adityasimant from "../assets/coreteam/adityasimant.jpeg"
 import renukam from "../assets/coreteam/renum.jpeg"
-import chimni from "../assets/coreteam/chimni.jpg"
 import pratikg from "../assets/coreteam/pratikg.jpeg"
 
 
@@ -23,8 +22,8 @@ class CoreTeam extends Component {
                             <ProjectCard
                                 imgPath={pratikg}
                                 isBlog={false}
-                                title="Ambassador of Mass Bunk org. "
-                                description="Was once caught selling fake chits before End Semester exam"
+                                title="Pratik Gawande"
+                                description="Chairperson"
                                 ghLink="https://www.linkedin.com/in/pratik-gawande"
                             />
                         </Col>
@@ -32,8 +31,8 @@ class CoreTeam extends Component {
                             <ProjectCard
                                 imgPath={adityasimant}
                                 isBlog={false}
-                                title="Facist humor engineer"
-                                description="Professional offensive meme maker"
+                                title="Aditya Simant"
+                                description="Technical Head"
                                 ghLink="https://linkedin.com/in/aditya-simant"
                             />
                         </Col>
@@ -41,20 +40,12 @@ class CoreTeam extends Component {
                             <ProjectCard
                                 imgPath={renukam}
                                 isBlog={false}
-                                title="Eablo Pascobar"
-                                description="Wanted in 3.5 countries for selling low quality toilet papers"
+                                title="Renuka Muddhalwadkar"
+                                description="Event Head"
                                 ghLink="https://www.linkedin.com/in/renuka-mudhalwadkar-698966253"
                             />
                         </Col>
-                        <Col md={4} className="project-card">
-                            <ProjectCard
-                                imgPath={chimni}
-                                isBlog={false}
-                                title="Director of defaulter hatao committe"
-                                description="Has negative attendence with a doctorate in signals n systems"
-                                ghLink="https://in.linkedin.com/in/chinmayi-kulkarni-940a8b223"
-                            />
-                        </Col>
+                        
 
 
                     </Row>

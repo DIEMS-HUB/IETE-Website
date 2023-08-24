@@ -11,31 +11,31 @@ function Footer() {
         <Col md="4" className="footer-copywright">
           <h3>Designed and developed by IETE DIEMS Technical team</h3>
         </Col>
-       
+
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
-            
             <li className="social-icons">
               <a
-                href="https://twitter.com/protagonist_z0"
+                href="https://www.linkedin.com/company/iete-diems-isf/"
                 style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <FaInstagram/>
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://www.linkedin.com/in/aditya-simant/"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
+                target="_blank"
+                rel="noreferrer"
+                className="icon-colour  home-social-icons"
               >
                 <FaLinkedinIn />
               </a>
             </li>
-           
+            <li className="social-icons">
+              <a
+                href="https://www.instagram.com/iete_diems/"
+                style={{ color: "white" }}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="icon-colour  home-social-icons"
+              >
+                <FaInstagram />
+              </a>
+            </li>
           </ul>
         </Col>
         <Col md="4" className="footer-copywright">

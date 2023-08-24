@@ -1,6 +1,6 @@
 import React from "react";
+import { Button } from "react-bootstrap";
 import Card from "react-bootstrap/Card";
-import Button from "react-bootstrap/Button";
 import { BsLinkedin } from "react-icons/bs";
 
 function ProjectCards(props) {
@@ -12,12 +12,14 @@ function ProjectCards(props) {
         <Card.Text style={{ textAlign: "center" }}>
           {props.description}
         </Card.Text>
-        <Button variant="danger" href={props.ghLink} style={{display:"flex",justifyContent:"center", alignItems:"center"}}>
+
+        <Button className="button-core-team" href={props.ghLink} target="_blank"
+          style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
           <BsLinkedin /> &nbsp;
           LinkedIn
         </Button>
-        
-        </Card.Body>
+
+      </Card.Body>
     </Card>
   );
 }
