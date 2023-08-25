@@ -25,7 +25,7 @@ function Home() {
               
               <h1 className="heading-name">
                 Welcome to 
-                <strong className="main-name"> Institute of Electronics and Telecommunication Engineers  DIEMS  ISF</strong>
+                 < span className="main-name"> Institution of Electronics and Telecommunication Engineers  DIEMS Student Forum</span>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
