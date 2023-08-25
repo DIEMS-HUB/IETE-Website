@@ -12,9 +12,10 @@ class About extends Component {
                     <Col
                             md={5}
                             style={{ paddingTop: "120px", paddingBottom: "50px" }}
-                            className="about-img"
+                            className="about-img  "
+                            
                         >
-                            <img src={quoteasset} alt="about" className="img-fluid" />
+                            <img src={quoteasset} alt="about" className="img-fluid main-iete-logo" />
                         </Col>
                         <Col
                             md={7}
