@@ -336,7 +336,9 @@ button:focus {
 }
 
 .home-about-body {
-  padding-top: 30px;
+  padding-left: 150px !important;
+  padding-right: 150px !important;
+  justify-content: center;
   font-size: 1.2em !important;
   text-align: center;
 }
