@@ -13,7 +13,7 @@ class Faculty extends Component {
               <h1 style={{ fontSize: "2.6em" }}>
                 A word from <span className="purple"> Faculty Coordinator </span>
               </h1>
-              <p  style={{ textAlign: "justify" }}>
+              <p   style={{ textAlign: "justify" }}>
 
 
                 <br />
