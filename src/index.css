@@ -4,5 +4,5 @@ body {
   font-family: "Nunito", serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: linear-gradient(to left, rgb(33, 37, 41), rgb(33, 37, 41));
+  background-image: linear-gradient(to left,rgb(23, 26, 30), rgb(33, 37, 41));
 }

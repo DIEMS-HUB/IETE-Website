@@ -12,19 +12,20 @@ function Home() {
       <Particle />
         <Container className="home-content">
           <Row>
-        
+       
             <Col >
               <img
                 src={homeLogo}
                 alt="home pic"
                 style={{ maxHeight: "450px" }}
+                className="main-iete-logo"
               />
             </Col>
-            <Col md={7} className="home-header">
+            <Col md={7} className="home-header" >
               
               <h1 className="heading-name">
                 Welcome to 
-                <strong className="main-name"> Institute of Electronics and Telecommunication Engineers DIEMS  ISF</strong>
+                <strong className="main-name"> Institute of Electronics and Telecommunication Engineers  DIEMS  ISF</strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
