@@ -131,7 +131,7 @@ button:focus {
 }
 
 .navbar-brand {
-  color: rgb(250, 250, 250) !important;
+  color: #ffffff !important;
 }
 
 .logo {
@@ -140,7 +140,7 @@ button:focus {
 }
 
 .navbar-nav .nav-link {
-  color: white !important;
+  color: #edf2f4 !important;
   padding-right: 1rem !important;
   padding-left: 1rem !important;
 }
@@ -244,8 +244,11 @@ button:focus {
   height: 100%;
 }
 
+
+
 .home-header {
   padding-top: 80px !important;
+  border-radius: 8px;
 }
 
 .home-section {
@@ -272,11 +275,15 @@ button:focus {
 .heading-name {
   font-size: 2.5em !important;
   padding-left: 45px !important;
-  color: #ffffff;
+  color: #EDF2F4;
 }
 
 .main-name {
   color: #ffffff;
+}
+
+.main-iete-logo{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .Typewriter__wrapper {

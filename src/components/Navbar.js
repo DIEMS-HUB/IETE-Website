@@ -6,8 +6,6 @@ import { Link } from "react-router-dom";
 import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
-  AiOutlineUser,
-  AiFillWechat,
   AiOutlineTeam,
 } from "react-icons/ai";
 
