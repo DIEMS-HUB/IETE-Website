@@ -41,11 +41,12 @@ class Faculty extends Component {
               </Card>
 
             </Col>
-            <Col className='myAvatar'>
-              <img src={myImg} className="img-fluid main-iete-logo" alt="avatar" style={{ maxHeight: "250px", marginTop: "40px", justifyContent: "center" }} />
+            <Col md={4} className="myAvtar">
+              <img src={myImg} className="img-fluid main-iete-logo" style={{ maxHeight: "350px" }} alt="avatar"  />
 
             </Col>
           </Row>
+          
         </Container>
       </Container>
     );
