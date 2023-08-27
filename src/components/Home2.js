@@ -37,51 +37,6 @@ function Home2() {
         </Row>
         <About />
         <Faculty/>
-
-        <Row>
-          <Col md={12} className="home-about-social">
-            <h1>Social Links</h1>
-            <p>
-              Feel free to connect with us
-            </p>
-            <ul className="home-about-social-links">
-
-              {/* <li className="social-icons">
-                <a
-                  href=""
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li> */}
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/company/iete-diems-isf/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <FaLinkedinIn />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/iete_diems/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
-                </a>
-              </li>
-            </ul>
-          </Col>
-        </Row>
-        <Row className="home-about-social">
-          <p>Contact: iete@dietms.org</p>
-        </Row>
       </Container>
     </Container>
     </section>

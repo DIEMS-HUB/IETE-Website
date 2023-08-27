@@ -20,7 +20,7 @@ function Footer() {
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noreferrer"
-                className="icon-colour  home-social-icons"
+                className="icon-colour  home-social-icons footer-icn"
               >
                 <FaLinkedinIn />
               </a>
@@ -31,7 +31,7 @@ function Footer() {
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="icon-colour  home-social-icons"
+                className="icon-colour  home-social-icons footer-icn"
               >
                 <FaInstagram />
               </a>
