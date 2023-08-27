@@ -312,6 +312,8 @@ button:focus {
 .myAvtar {
   justify-content: center !important;
   padding-top: 9em !important;
+  padding-left: 9em !important;
+  
 }
 
 @media (max-width: 767px) {
@@ -336,8 +338,6 @@ button:focus {
 }
 
 .home-about-body {
-  padding-left: 150px !important;
-  padding-right: 150px !important;
   justify-content: center;
   font-size: 1.2em !important;
   text-align: center;
@@ -411,8 +411,8 @@ button:focus {
 .footer {
   background-color: #FA1632;
   bottom: 0 !important;
-  padding-top: 10px !important;
-  padding-bottom: 8px !important;
+  padding-top: 2px !important;
+  padding-bottom: 2px !important
 }
 
 .footer-copywright {
@@ -435,9 +435,9 @@ button:focus {
 }
 
 .footer h3 {
-  font-size: 17px;
+  font-size: 14px;
   color: white !important;
-  margin-top: 1em !important;
+  margin-top: 1.4em !important;
   margin-bottom: 0.5em !important;
 }
 
@@ -772,3 +772,5 @@ button:focus {
   color: #ffffff !important;
   background: #FA1632 !important;
 }
+
+

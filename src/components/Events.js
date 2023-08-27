@@ -14,6 +14,7 @@ class Events extends Component {
                 <img
                     src={underconst}
                     alt="Nothing to show here"
+                    className="img-fluid"
                     style={{
                         maxHeight: "332px", marginTop: "70px", marginBottom: "50px", display: "block",
                         marginLeft: "auto",

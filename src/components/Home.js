@@ -18,7 +18,7 @@ function Home() {
                 src={homeLogo}
                 alt="home pic"
                 style={{ maxHeight: "450px" }}
-                className="main-iete-logo"
+                className="main-iete-logo img-fluid"
               />
             </Col>
             <Col md={7} className="home-header" >
