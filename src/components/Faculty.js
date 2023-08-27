@@ -2,14 +2,42 @@ import React, { Component } from 'react';
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../assets/cordimg.jpeg";
 import Card from "react-bootstrap/Card";
+import {motion} from "framer-motion"
 
+
+const fadeInAnimationvarient ={
+  initial:{
+      opacity: 0,
+      y: 100,
+  },
+  animate:{
+      opacity:1,
+      y:0,
+      transition:{
+          type: "spring"
+      }
+  },
+};
 
 class Faculty extends Component {
   render() {
     return (
       <Container fluid className="home-about-section" id="about">
         <Container>
+          <motion.div
+                variants={fadeInAnimationvarient}
+                initial="initial"
+                whileInView="animate"
+                viewport={{
+                    once: true,
+                }}>
           <Row>
+            <h1 className="coord-word-heading" style={{ fontSize: "2.1em", paddingBottom: "20px", }}>
+              A Word from Faculty <spam className="purple">Co-ordinator</spam>
+            </h1>
+          </Row>
+          <Row>
+
             <Col
               md={7}
               style={{
@@ -18,12 +46,13 @@ class Faculty extends Component {
                 paddingBottom: "50px",
               }}>
 
+
+
               <Card className="quote-card-view">
                 <Card.Body>
+
                   <blockquote className="blockquote mb-0">
-                    <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-                      A Word from Faculty <spam className="purple">Co-ordinator</spam>
-                    </h1>
+
                     <p style={{ textAlign: "justify" }}>
                       <br />
                       As the Faculty Coordinator for the IETE Student Forum in our college, I am truly enthusiastic about the opportunities and benefits that the IETE (Institution of Electronics and Telecommunication Engineers) brings to our students. The IETE plays a pivotal role in nurturing technical skills, fostering innovation, and building a strong foundation in electronics and telecommunication engineering. The forum provides an interactive platform for students to engage in knowledge-sharing, workshops, seminars, and technical competitions.
@@ -42,11 +71,11 @@ class Faculty extends Component {
 
             </Col>
             <Col md={4} className="myAvtar">
-              <img src={myImg} className="img-fluid main-iete-logo" style={{ maxHeight: "350px" }} alt="avatar"  />
+              <img src={myImg} className="img-fluid main-iete-logo" style={{ maxHeight: "350px" }} alt="avatar" />
 
             </Col>
           </Row>
-          
+          </motion.div>
         </Container>
       </Container>
     );
