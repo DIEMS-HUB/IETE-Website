@@ -2,10 +2,33 @@ import React, { Component } from 'react';
 import { Container, Row, Col } from "react-bootstrap";
 import Aboutcard from './Aboutcard';
 import quoteasset from "../assets/quoteasset.png"
+import { motion } from 'framer-motion';
+
+const fadeInAnimationvarient ={
+    initial:{
+        opacity: 0,
+        y: 100,
+    },
+    animate:{
+        opacity:1,
+        y:0,
+        transition:{
+            type: "spring"
+        }
+    },
+};
 
 class About extends Component {
     render() {
         return (
+            <motion.div
+                variants={fadeInAnimationvarient}
+                initial="initial"
+                whileInView="animate"
+                viewport={{
+                    once: true,
+                }}
+            >
             <Container fluid className="about-section">
                 <Container>
                     <Row style={{ justifyContent: "center", padding: "10px" }}>
@@ -34,6 +57,7 @@ class About extends Component {
                     </Row>
                 </Container>
             </Container>
+            </motion.div>
         );
     }
 }

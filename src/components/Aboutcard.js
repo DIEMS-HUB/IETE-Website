@@ -6,7 +6,7 @@ import { ImPointRight } from "react-icons/im";
 class Aboutcard extends Component {
     render() {
         return (
-
+            
             <Card className="quote-card-view">
                 <Card.Body>
                     <blockquote className="blockquote mb-0">
