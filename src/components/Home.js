@@ -13,7 +13,7 @@ function Home() {
         <Container className="home-content">
           <Row>
        
-            <Col >
+            <Col className="main-logo-col">
               <img
                 src={homeLogo}
                 alt="home pic"
@@ -23,10 +23,14 @@ function Home() {
             </Col>
             <Col md={7} className="home-header" >
               
-              <h1 className="heading-name">
+              <h2 className="heading-name">
                 Welcome to 
-                 < span className="main-name"> Institution of Electronics and Telecommunication Engineers  DIEMS Student Forum</span>
-              </h1>
+                 < span className="main-name"> Deogiri Institute of Engineering and Management Studies </span>
+                 <div className="iete-name">IETE Student Forum</div>
+              </h2>
+              <div>
+
+              </div>
 
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
