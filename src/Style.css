@@ -247,8 +247,8 @@ button:focus {
 
 
 .home-header {
-  padding-top: 80px !important;
   border-radius: 8px;
+  padding-top:5em;
 }
 
 .home-section {
@@ -273,13 +273,25 @@ button:focus {
 }
 
 .heading-name {
-  font-size: 2.5em !important;
+  font-size: 2em !important;
   padding-left: 45px !important;
   color: #EDF2F4;
 }
 
+.iete-name{
+  padding-top: 20px;
+  font-size: 1.5em !important;
+  color: #ffffff;
+}
+
 .main-name {
   color: #ffffff;
+}
+
+.main-logo-col{
+  padding-bottom: 45px !important;
+  margin-top: auto !important;
+  margin-bottom: auto !important;
 }
 
 .main-iete-logo{
@@ -311,7 +323,7 @@ button:focus {
 
 .myAvtar {
   justify-content: center !important;
-  padding-top: 9em !important;
+  padding-top: 5em !important;
   margin-left: 7% !important;
 
   
