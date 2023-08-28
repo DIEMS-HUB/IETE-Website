@@ -9,6 +9,7 @@ import SSurya from "../assets/coreteam/creativeII.jpeg"
 import jivan from "../assets/coreteam/jivank.jpeg"
 import cochair from "../assets/coreteam/cochair.jpeg"
 import dikshit from "../assets/coreteam/dikshit.jpeg"
+import RajasK from "../assets/coreteam/RajasK.jpeg"
 
 
 
@@ -50,6 +51,16 @@ class CoreTeam extends Component {
                                 title="Aditya Simant"
                                 description="Technical Head"
                                 ghLink="https://linkedin.com/in/aditya-simant"
+                            />
+                        </Col>
+                        
+                        <Col md={4} className="project-card">
+                            <ProjectCard
+                                imgPath={RajasK}
+                                isBlog={false}
+                                title="Rajas Kapre"
+                                description="Technical Head"
+                                ghLink="https://www.linkedin.com/in/rajas-kapre"
                             />
                         </Col>
                         <Col md={4} className="project-card">
