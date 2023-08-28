@@ -50,7 +50,7 @@ class Home2 extends Component{
                 }}
             >
                 <blockquote className="blockquote mb-0">
-                  <p  style={{ textAlign: "justify", fontSize: "1em" }}>
+                  <p  style={{ textAlign: "justify", fontSize: "1em" , padding: "20px" }}>
 
                     <br />
                     IETE ISF is a student-driven initiative affiliated with the Institution of Electronics and Telecommunication Engineers (IETE). It aims to empower students by fostering collaborations with leading industry players, organizing industry-centric events, workshops, seminars, and networking opportunities. By bringing students and industry experts together, IETE ISF facilitates knowledge exchange, career development, and innovation in line with the latest industry trends and practices.
