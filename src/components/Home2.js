@@ -1,14 +1,29 @@
-import React from "react";
+import React, { Component } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 // import myImg from "../../Assets/myImg.png";
 import Card from "react-bootstrap/Card";
 import About from "./About";
 import Faculty from "./Faculty";
 import wrldmap from "../assets/undraw_connected_world_wuay.svg"
+import {motion} from "framer-motion"
+const fadeInAnimationvarient ={
+    initial:{
+        opacity: 0,
+        y: 100,
+    },
+    animate:{
+        opacity:1,
+        y:0,
+        transition:{
+          type: "spring"
+        }
+    },
+};
 
-function Home2() {
-  return (
-    <section>
+class Home2 extends Component{
+  render(){
+    return(
+      <section>
       <Container fluid className="home-about-section" id="about">
         <Container>
           <Row className="home-about-description">
@@ -24,9 +39,16 @@ function Home2() {
                 marginRight: "auto"
               }}
             />
-
             <Card className="quote-card-view">
               <Card.Body>
+              <motion.div
+                variants={fadeInAnimationvarient}
+                initial="initial"
+                whileInView="animate"
+                viewport={{
+                    once: true,
+                }}
+            >
                 <blockquote className="blockquote mb-0">
                   <p  style={{ textAlign: "justify", fontSize: "1em" , padding: "20px" }}>
 
@@ -38,6 +60,8 @@ function Home2() {
 
 
                 </blockquote>
+                </motion.div>
+
               </Card.Body>
             </Card>
 
@@ -47,6 +71,10 @@ function Home2() {
         </Container>
       </Container>
     </section>
-  );
+    )
+    
+  }
 }
+
+
 export default Home2;
