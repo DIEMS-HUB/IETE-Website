@@ -22,7 +22,8 @@ jobs:
         run: npm install --prefix frontend
       
       - name: Build frontend
-        run: npm run build --prefix frontend
+        run: npm run build --prefix ./frontend
+
       
       - name: Set up backend Node.js
         uses: actions/setup-node@v2
