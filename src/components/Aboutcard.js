@@ -29,13 +29,7 @@ class Aboutcard extends Component {
                             <br />
                             <br />
                             <br />
-                            <h4><ImPointRight /><b> Motto</b></h4>
-
-                                <b>Empowering Tomorrow: By Students, For Students.</b>
-                            <br />
-                            Our motto encapsulates the essence of DIEMS IETE ISF's mission and ethos. We are dedicated to cultivating the next generation of technology leaders who will shape the future. Our focus is not only on technical knowledge but also on leadership, innovation, and community-building.
-                            <br />
-                            <br />
+                           
                         </p>
                     </blockquote>
                 </Card.Body>

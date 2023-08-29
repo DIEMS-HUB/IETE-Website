@@ -4,6 +4,7 @@ import homeLogo from "../../src/assets/websitelogo.png";
 import Type from "./Type";
 import Particle from "./Particles";
 import Home2 from "./Home2";
+import AboutInst from "./AboutInst";
 
 function Home() {
   return (
@@ -39,6 +40,7 @@ function Home() {
           </Row>
         </Container>
       </Container>
+      <AboutInst/>
       <Home2/>
     </section>
   );
