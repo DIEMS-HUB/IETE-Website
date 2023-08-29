@@ -296,6 +296,10 @@ button:focus {
 
 .main-iete-logo{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-style: solid;
+  border-radius: 8px !important;
+  border-width: thin !important;
+  border-color: #FA1632 !important;
 }
 
 .Typewriter__wrapper {
@@ -340,6 +344,22 @@ button:focus {
   position: relative;
   padding-bottom: 70px !important;
   padding-top: 70px !important;
+}
+
+.diems-heading{
+  color: white !important;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-bottom: 20px !important;
+  text-align: center;
+}
+
+.diems-button{
+  background:#FA1632 !important; 
+  border: #FA1632 !important;
+  z-index: "10px";
+  margin-left: 15em !important;
+  margin-right: 15em !important;
 }
 
 .home-about-description {
@@ -764,23 +784,6 @@ button:focus {
   padding-top: 10px !important;
 }
 
-.fork-btn-inner {
-  line-height: 1.4em !important;
-  background-color: #934cce5e !important;
-  padding: 0.25rem 1.1rem !important;
-  vertical-align: middle !important;
-  text-align: center !important;
-}
-
-.fork-btn-inner:hover {
-  transform: translateY(-2px) !important;
-  background-color: #a24dd386 !important;
-  border-color: #a24dd386 !important;
-}
-
-.fork-btn-inner::after {
-  display: none !important;
-}
 
 .button-core-team {
   background:#FA1632 !important; 
