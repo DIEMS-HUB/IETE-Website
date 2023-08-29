@@ -18,13 +18,12 @@ jobs:
         with:
           node-version: 14
       
-      - name: Install frontend dependencies
-        run: npm install --prefix frontend
-      
-      - name: Build frontend
-        run: npm run build --prefix ./frontend
+      - name: Print working directory
+        run: echo $PWD
 
-      
+      - name: Build frontend
+        run: npm run build --prefix /full/path/to/frontend
+
       - name: Set up backend Node.js
         uses: actions/setup-node@v2
         with:
