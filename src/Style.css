@@ -149,7 +149,7 @@ button:focus {
   padding: 0.8rem 1rem !important;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .nav-link {
     padding: 0.7rem 1rem !important;
   }
@@ -411,8 +411,8 @@ button:focus {
 .footer {
   background-color: #FA1632;
   bottom: 0 !important;
-  padding-top: 2px !important;
-  padding-bottom: 2px !important
+  padding-top: 10px !important;
+  padding-bottom: 8px !important;
 }
 
 .footer-copywright {
