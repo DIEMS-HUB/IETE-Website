@@ -1,4 +1,4 @@
-name: CI/CD Workflow
+name: React Bootstrap CI/CD Workflow
 
 on: [push] # Trigger the workflow on every push to the repository
 
@@ -18,11 +18,18 @@ jobs:
     - name: Install dependencies
       run: npm install
       
-    - name: Lint code
-      run: npm run lint
+    - name: Build React app
+      run: npm run build
       
     - name: Run tests
       run: npm test
       
-    - name: Deploy
-      # Add your deployment steps here
+    - name: Deploy to GitHub Pages
+      uses: JamesIves/github-pages-deploy-action@4.1.1
+      with:
+        branch: gh-pages # Or the branch you want to deploy to
+        folder: build # Or the folder where your build artifacts are
+      
+ # Set any environment variables needed
+      
+    # Add more deployment steps as needed for your specific deployment platform
