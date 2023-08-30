@@ -1,6 +1,6 @@
 name: React Bootstrap CI/CD Workflow
 
-on: [push] 
+on: workflow_dispatch 
 
 jobs:
   build:
