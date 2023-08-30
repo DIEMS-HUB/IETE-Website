@@ -1,28 +1,28 @@
-name: Build and Test
+name: CI/CD Workflow
 
-on:
-  push:
-    branches:
-      - main
+on: [push] # Trigger the workflow on every push to the repository
 
 jobs:
-  build-and-test:
+  build:
     runs-on: ubuntu-latest
-    
+
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
+    - name: Checkout code
+      uses: actions/checkout@v2
       
-      - name: Set up Node.js
-        uses: actions/setup-node@v2
-        with:
-          node-version: 14
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: 14
       
-      - name: Install dependencies
-        run: npm install
+    - name: Install dependencies
+      run: npm install
       
-      - name: Build
-        run: npm run build
+    - name: Lint code
+      run: npm run lint
       
-      - name: Run tests
-        run: npm test
+    - name: Run tests
+      run: npm test
+      
+    - name: Deploy
+      # Add your deployment steps here
