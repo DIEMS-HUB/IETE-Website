@@ -1,6 +1,6 @@
 name: React Bootstrap CI/CD Workflow
 
-on: [push] # Trigger the workflow on every push to the repository
+on: [push] 
 
 jobs:
   build:
@@ -13,7 +13,7 @@ jobs:
     - name: Set up Node.js
       uses: actions/setup-node@v2
       with:
-        node-version: 14
+        node-version: 17
       
     - name: Install dependencies
       run: npm install
@@ -27,9 +27,6 @@ jobs:
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@4.1.1
       with:
-        branch: gh-pages # Or the branch you want to deploy to
-        folder: build # Or the folder where your build artifacts are
+        branch: gh-pages 
+        folder: build 
       
- # Set any environment variables needed
-      
-    # Add more deployment steps as needed for your specific deployment platform
