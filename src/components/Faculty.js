@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../assets/cordimg.jpeg";
 import Card from "react-bootstrap/Card";
-import { motion } from "framer-motion"
-import Image from 'react-bootstrap/Image';
+import { motion } from "framer-motion";
+
 
 
 const fadeInAnimationvarient = {
