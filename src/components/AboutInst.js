@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from "react-bootstrap";
 import deims from "../assets/diemslogoiete.png"
-import Card from "react-bootstrap/Card";
 import Button from 'react-bootstrap/Button';
+import director from "../assets/Director.png"
+import hod from "../assets/Hod.png"
+import dean from "../assets/dean.png"
+import Card from "react-bootstrap/Card";
 
 
 
@@ -17,16 +20,16 @@ class AboutInst extends Component {
                         </h1>
 
                         <Col
-                            md={7}
+                            md={8}
                             style={{
                                 justifyContent: "center",
                                 paddingTop: "30px",
                                 paddingBottom: "50px",
-                               
+
                             }}
                         >
 
-                            <blockquote className="blockquote mb-0 ">
+                            <blockquote className="blockquote ">
                                 <p style={{ textAlign: "justify", paddingTop: "50px" }}><span className="purple">Deogiri Institute of Engineering and Management Studies </span>
 
                                     is affiliated to the Dr. Babasaheb Ambedkar Technological University, Lonere and is developed as per the norms of the All India Council of Technical Education (A.I.C.T.E.), Government of India.The Institute is consistently among the top institutes of Dr. B.A.M. University in examination results. The student-centric teaching learning environment, state of the art infrastructure, well-equipped laboratories, library stacked with good number of books, experienced and dedicated team of faculties are the key features of the Institute.
@@ -47,10 +50,10 @@ class AboutInst extends Component {
 
                         </Col>
                         <Col
-                            md={5}
-                            style={{ paddingTop: "80px", paddingBottom: "50px" , paddingLeft: "10%",
-                            paddingRight: "10%"}}
-                            className="about-img  "
+                            style={{
+                                paddingTop: "80px", paddingBottom: "50px", 
+                            }}
+                            className="myAvtar"
 
                         >
                             <img src={deims}
@@ -60,6 +63,41 @@ class AboutInst extends Component {
                             />
                         </Col>
 
+                    </Row>
+                    <Row>
+                        <Col md={4}>
+                            <Card className="authority-card">
+                                <Card.Img variant="top" src={director} alt="card-img" />
+                                <Card.Body>
+                                    <Card.Title style={{ textAlign: "center" }}>Dr. Ulhas Shiurkar</Card.Title>
+                                    <Card.Text style={{ textAlign: "center" }}>
+                                        Director
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
+                        </Col>
+                        <Col>
+                            <Card className="authority-card">
+                                <Card.Img variant="top" src={dean} alt="card-img" />
+                                <Card.Body>
+                                    <Card.Title style={{ textAlign: "center" }}>Dr. S. V. Lahane</Card.Title>
+                                    <Card.Text style={{ textAlign: "center" }}>
+                                        Academic Dean 
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
+                        </Col>
+                        <Col>
+                            <Card className="authority-card">
+                                <Card.Img variant="top" src={hod} alt="card-img" />
+                                <Card.Body>
+                                    <Card.Title style={{ textAlign: "center" }}>Dr. R. M. Autee</Card.Title>
+                                    <Card.Text style={{ textAlign: "center" }}>
+                                        Head of E&TC Department 
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
+                        </Col>
                     </Row>
                 </Container>
             </Container>
