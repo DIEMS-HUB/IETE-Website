@@ -54,7 +54,7 @@ button:focus {
 /* Navbar Section  */
 /* --------- */
 .sticky {
-  background-color: rgba(43, 41, 53, 0.663)!important;
+  background-color: rgba(43, 41, 53, 0.663) !important;
   transition: all 0.3s ease-out 0s !important;
   box-shadow: 0px 10px 10px 0px rgba(29, 5, 5, 0.171) !important;
   backdrop-filter: blur(15px) !important;
@@ -248,7 +248,7 @@ button:focus {
 
 .home-header {
   border-radius: 8px;
-  padding-top:5em;
+  padding-top: 5em;
 }
 
 .home-section {
@@ -278,7 +278,7 @@ button:focus {
   color: #EDF2F4;
 }
 
-.iete-name{
+.iete-name {
   padding-top: 20px;
   font-size: 1.5em !important;
   color: #ffffff;
@@ -288,13 +288,13 @@ button:focus {
   color: #ffffff;
 }
 
-.main-logo-col{
+.main-logo-col {
   padding-bottom: 45px !important;
   margin-top: auto !important;
   margin-bottom: auto !important;
 }
 
-.main-iete-logo{
+.main-iete-logo {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-style: solid;
   border-radius: 8px !important;
@@ -331,7 +331,7 @@ button:focus {
   padding-top: 5em !important;
   margin-left: 7% !important;
 
-  
+
 }
 
 @media (max-width: 767px) {
@@ -347,7 +347,7 @@ button:focus {
   padding-top: 70px !important;
 }
 
-.diems-heading{
+.diems-heading {
   color: white !important;
   margin-left: 50px;
   margin-right: 50px;
@@ -355,8 +355,8 @@ button:focus {
   text-align: center;
 }
 
-.diems-button{
-  background:#FA1632 !important; 
+.diems-button {
+  background: #FA1632 !important;
   border: #FA1632 !important;
   z-index: "10px";
   margin-left: 15em !important;
@@ -446,7 +446,11 @@ button:focus {
   background-color: #FA1632;
   bottom: 0 !important;
   padding-top: 2px !important;
-  padding-bottom: 2px !important
+  padding-bottom: 2px !important;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  overflow: hidden;
 }
 
 .footer-copywright {
@@ -485,7 +489,7 @@ button:focus {
   color: #ffb3b3 !important;
 }
 
-.coord-word-heading{
+.coord-word-heading {
   text-align: center;
   justify-content: center;
   margin-left: auto;
@@ -520,7 +524,7 @@ button:focus {
   height: 100% !important;
 }
 
-.authority-card{
+.authority-card {
   box-shadow: 0 4px 5px 3px rgba(16, 16, 16, 0.459) !important;
   color: white !important;
   background-color: transparent !important;
@@ -798,15 +802,13 @@ button:focus {
 
 
 .button-core-team {
-  background:#FA1632 !important; 
+  background: #FA1632 !important;
   border: #FA1632 !important;
   z-index: "10px";
-  
+
 }
 
-.button-core-team:hover{
+.button-core-team:hover {
   color: #ffffff !important;
   background: #FA1632 !important;
 }
-
-

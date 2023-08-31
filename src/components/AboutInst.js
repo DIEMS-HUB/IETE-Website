@@ -8,7 +8,6 @@ import dean from "../assets/dean.png"
 import Card from "react-bootstrap/Card";
 
 
-
 class AboutInst extends Component {
     render() {
         return (

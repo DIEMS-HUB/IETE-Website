@@ -7,6 +7,7 @@ import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineTeam,
+  AiOutlineUserAdd
 } from "react-icons/ai";
 
 
@@ -85,6 +86,18 @@ function NavBar() {
                   style={{ marginBottom: "2px" }}
                 />{" "}
                 Core Team
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/join"
+                onClick={() => updateExpanded(false)}
+              >
+                <  AiOutlineUserAdd
+                  style={{ marginBottom: "2px" }}
+                />{" "}
+                Join
               </Nav.Link>
             </Nav.Item>
 
