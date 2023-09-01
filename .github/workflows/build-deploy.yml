@@ -18,7 +18,7 @@ jobs:
 
       - name: Build
         run: npm run build 
-      - name: Deploy to gh-pages
+      - name: Move Artifacts 
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
@@ -41,8 +41,13 @@ jobs:
       url: ${{ steps.deployment.output.page_url }}
 
     steps:
-      - name: CD
+      - name: Checkout Repo
+        uses: actions/checkout@v2
+        with:
+          ref: gh-pages
+      - name: Deploy
         id: deployment
-        uses: actions/deploy-pages@v2  
+        uses: actions/deploy-pages@v2
+        
 
     
