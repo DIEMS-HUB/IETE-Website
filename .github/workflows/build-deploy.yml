@@ -1,46 +1,30 @@
-name: CI CD on gh-page
+name: Deploy to GitHub Pages
+
 on: workflow_dispatch
 
 jobs:
-  Continuous-Integration:
+  build-and-deploy:
     runs-on: ubuntu-latest
-    # permissions:
-    #   pages: write
-    #   id-token: write
-    # environment:
-    #   name: github-pages
-    #   url: ${{ steps.deployment.output.page_url }}
+
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v2
+    - name: Checkout code
+      uses: actions/checkout@v2
 
-      - name: Set Up Node.js
-        uses: actions/setup-node@v2
-        with:
-          node-version: '14' 
+    - name: Setup Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: 14  
 
-      - name: Install Dependencies
-        run: npm install
+    - name: Install dependencies
+      run: npm install 
 
-      - name: Build
-        run: npm run build 
-      - name: Move Artifacts 
-        env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
-        run: |
-          git config --global user.name 'riteshsonawane1372'
-          git config --global user.email 'riteshsonawane1372@gmail.com'
-          git checkout --orphan gh-pages
-          git rm -rf .
-          mv -f build/* .
-          git add .
-          git commit -m 'GitHub Actions: Deploy to gh-pages'
-          git push -f origin gh-pages
-      # - name: Deploy
-      #   id: deployment
-      #   uses: actions/deploy-pages@v2
+    - name: Build
+      run: npm run build  
 
-
-        
-
-    
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        deploy_key: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./build 
+        publish_branch: gh-pages
+        custom_domain: io.weekybinge.xyz
