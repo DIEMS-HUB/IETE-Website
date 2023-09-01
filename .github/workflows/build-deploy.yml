@@ -4,12 +4,12 @@ on: workflow_dispatch
 jobs:
   Continuous-Integration:
     runs-on: ubuntu-latest
-    permissions:
-      pages: write
-      id-token: write
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.output.page_url }}
+    # permissions:
+    #   pages: write
+    #   id-token: write
+    # environment:
+    #   name: github-pages
+    #   url: ${{ steps.deployment.output.page_url }}
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v2
@@ -36,9 +36,9 @@ jobs:
           git add .
           git commit -m 'GitHub Actions: Deploy to gh-pages'
           git push -f origin gh-pages
-      - name: Deploy
-        id: deployment
-        uses: actions/deploy-pages@v2
+      # - name: Deploy
+      #   id: deployment
+      #   uses: actions/deploy-pages@v2
 
 
         
