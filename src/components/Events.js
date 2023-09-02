@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Row } from 'react-bootstrap';
+import { Container} from 'react-bootstrap';
 import underconst from "../assets/undraw_under_construction_-46-pa.svg"
 
 class Events extends Component {

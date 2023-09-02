@@ -10,7 +10,7 @@
     "@fortawesome/free-brands-svg-icons": "^6.4.2",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
+    "@testing-library/react": "^14.0.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.3.1",
     "framer-motion": "^10.16.1",
@@ -25,7 +25,7 @@
     "react-tsparticles": "^2.12.2",
     "styled-components": "^6.0.7",
     "typewriter-effect": "^2.20.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^3.4.0"
   },
   "scripts": {
     "start": "react-scripts start",
