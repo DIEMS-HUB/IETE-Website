@@ -64,28 +64,6 @@ class AboutInst extends Component {
 
                     </Row>
                     <Row>
-                        <Col md={4}>
-                            <Card className="authority-card">
-                                <Card.Img variant="top" src={director} alt="card-img" />
-                                <Card.Body>
-                                    <Card.Title style={{ textAlign: "center" }}>Dr. Ulhas Shiurkar</Card.Title>
-                                    <Card.Text style={{ textAlign: "center" }}>
-                                        Director
-                                    </Card.Text>
-                                </Card.Body>
-                            </Card>
-                        </Col>
-                        <Col>
-                            <Card className="authority-card">
-                                <Card.Img variant="top" src={dean} alt="card-img" />
-                                <Card.Body>
-                                    <Card.Title style={{ textAlign: "center" }}>Dr. S. V. Lahane</Card.Title>
-                                    <Card.Text style={{ textAlign: "center" }}>
-                                        Academic Dean 
-                                    </Card.Text>
-                                </Card.Body>
-                            </Card>
-                        </Col>
                         <Col>
                             <Card className="authority-card">
                                 <Card.Img variant="top" src={hod} alt="card-img" />
@@ -97,6 +75,30 @@ class AboutInst extends Component {
                                 </Card.Body>
                             </Card>
                         </Col>
+                        <Col>
+                            <Card className="authority-card">
+                                <Card.Img variant="top" src={dean} alt="card-img" />
+                                <Card.Body>
+                                    <Card.Title style={{ textAlign: "center" }}>Dr. S. V. Lahane</Card.Title>
+                                    <Card.Text style={{ textAlign: "center" }}>
+                                        Dean Academics
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
+                        </Col>
+
+                        <Col md={4}>
+                            <Card className="authority-card">
+                                <Card.Img variant="top" src={director} alt="card-img" />
+                                <Card.Body>
+                                    <Card.Title style={{ textAlign: "center" }}>Dr. Ulhas Shiurkar</Card.Title>
+                                    <Card.Text style={{ textAlign: "center" }}>
+                                        Director
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
+                        </Col>
+
                     </Row>
                 </Container>
             </Container>
