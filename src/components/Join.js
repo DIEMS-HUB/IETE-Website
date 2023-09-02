@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 import Card from "react-bootstrap/Card";
 import JoinLogo from "../../src/assets/undraw_join_re_w1lh.svg";
 import Button from "react-bootstrap/Button";
@@ -10,13 +10,9 @@ class Join extends Component {
       <Container fluid className="home-about-section" id="about">
         <Container>
           <Row className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
-              Join our{" "}
-              <span className="purple">
-                <b>IETE</b>{" "}
-              </span>{" "}
-              Community
-            </h1>
+          <h1 className="project-heading" style={{ textAlign: "center", marginTop:"50px" }}>
+                    Join our <span className='purple'>IETE</span> community!
+                </h1>
 
             <div className="iete-join">
               <img
