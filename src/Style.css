@@ -812,3 +812,24 @@ button:focus {
   color: #ffffff !important;
   background: #FA1632 !important;
 }
+
+/*  Join us page */
+
+.iete-join {
+  margin: 38px auto 10px !important;
+}
+
+.join-button {
+  color: #FA1632 !important;
+}
+
+.button-join {
+  background: #FA1632 !important;
+  border: #FA1632 !important;
+  z-index: "10px";
+}
+
+.button-join:hover {
+  background-color: #FA1632 !important;
+}
+
