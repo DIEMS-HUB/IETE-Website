@@ -40,21 +40,20 @@ class Faculty extends Component {
             <Row>
 
               <Col
-                md={7}
+                md={8}
                 style={{
-                  justifyContent: "center",
                   paddingTop: "30px",
                   paddingBottom: "50px",
                 }}>
 
 
 
-                <Card className="quote-card-view">
+                <Card className="quote-card-view ">
                   <Card.Body>
 
-                    <blockquote className="blockquote mb-0">
+                    <blockquote className="blockquote  ">
 
-                      <p style={{ textAlign: "justify" }}>
+                      <p style={{ textAlign: "justify" }} >
                         <br />
                         As the Faculty Coordinator for the IETE Student Forum in our college, I am truly enthusiastic about the opportunities and benefits that the IETE (Institution of Electronics and Telecommunication Engineers) brings to our students. The IETE plays a pivotal role in nurturing technical skills, fostering innovation, and building a strong foundation in electronics and telecommunication engineering. The forum provides an interactive platform for students to engage in knowledge-sharing, workshops, seminars, and technical competitions.
                       </p>
@@ -71,10 +70,10 @@ class Faculty extends Component {
                 </Card>
 
               </Col>
-              <Col md={4} className="myAvtar">
+              <Col md={3} className="myAvtar">
 
 
-                <img src={myImg} className="img-fluid main-iete-logo" style={{ maxHeight: "350px" }} alt="avatar" />
+                <img src={myImg} className="img-fluid  co-ord-img" style={{ maxHeight: "280px", marginRight:"auto", marginLeft:"auto"}} alt="avatar" />
 
               </Col>
             </Row>
