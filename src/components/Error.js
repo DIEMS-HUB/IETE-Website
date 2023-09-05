@@ -5,7 +5,6 @@ import {
 } from "react-icons/ai";
 import errorimg from "../assets/page_not_found.svg"
 import Button from "react-bootstrap/Button";
-import Home from './Home';
 
 
 class Error extends Component {

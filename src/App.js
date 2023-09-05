@@ -4,7 +4,6 @@ import {
   HashRouter as Router,
   Route,
   Routes,
-  Navigate
 } from "react-router-dom";
 import Events from './components/Events';
 import CoreTeam from './components/CoreTeam';
