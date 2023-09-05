@@ -1,4 +1,5 @@
 import NavBar from './components/Navbar';
+import Error from './components/Error';
 import {
   HashRouter as Router,
   Route,
@@ -26,7 +27,8 @@ function App() {
           <Route path="/coreteam" element={<CoreTeam />} />
           <Route path="/about" element={<About />} />
           <Route path="/join" element={<Join />} />
-          <Route path="*" element={<Navigate to="/" />} />
+          <Route path="*" element={<Error />} />
+
         </Routes>
         <Footer/>
       </Router>
