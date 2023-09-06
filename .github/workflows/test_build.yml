@@ -1,0 +1,39 @@
+name: Build and Test
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 17
+      
+      - name: Install frontend dependencies
+        run: npm install --prefix frontend
+      
+      - name: Build frontend
+        run: npm run build --prefix frontend
+      
+      - name: Set up backend Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 17
+      
+      - name: Install backend dependencies
+        run: npm install
+        working-directory: backend
+      
+      - name: Run backend tests
+        run: npm test
+        working-directory: backend
+

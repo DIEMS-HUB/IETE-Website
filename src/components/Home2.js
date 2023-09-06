@@ -1,5 +1,10 @@
 import React, { Component } from "react";
+<<<<<<< HEAD
 import { Container, Row} from "react-bootstrap";
+=======
+import { Container, Row } from "react-bootstrap";
+// import myImg from "../../Assets/myImg.png";
+>>>>>>> ee3420a646a18934ba6d87b5389b5480744fe7f5
 import Card from "react-bootstrap/Card";
 import About from "./About";
 import Faculty from "./Faculty";
