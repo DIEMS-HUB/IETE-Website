@@ -27,9 +27,11 @@ class Join extends Component {
                 <blockquote className="blockquote mb-0">
                   <p
                     style={{
-                      textAlign: "justify",
+                      textAlign: "center",
                       fontSize: "1em",
-                      marginBottom: "20px"
+                      marginBottom: "20px",
+                      marginLeft:"15%",
+                      marginRight:"15%"
                     }}
                   >
                     <br />
@@ -42,14 +44,14 @@ class Join extends Component {
             <Button
               className="button-join"
               target="_blank"
-              href={""}
+              href={"https://forms.gle/TbPLgebEvUBpTrjD7"}
               style={{
                 display: "flex",
                 justifyContent: "center",
                 alignItems: "center",
                 width: "200px",
-                marginLeft: "43%",
-                marginRight: "43%",
+                marginLeft: "auto",
+                marginRight: "auto",
                 marginTop: "15px"
               }}
             >

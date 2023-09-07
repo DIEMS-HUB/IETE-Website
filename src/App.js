@@ -1,9 +1,9 @@
 import NavBar from './components/Navbar';
+import Error from './components/Error';
 import {
   HashRouter as Router,
   Route,
   Routes,
-  Navigate
 } from "react-router-dom";
 import Events from './components/Events';
 import CoreTeam from './components/CoreTeam';
@@ -27,7 +27,7 @@ function App() {
           <Route path="/coreteam" element={<CoreTeam />} />
           <Route path="/about" element={<About />} />
           <Route path="/join" element={<Join />} />
-          <Route path="*" element={<Navigate to="/" />} />
+          <Route path="*" element={<Error />} />
           <Route path="/socialmeta-page" component={SocialMeta} />
         </Routes>
         <Footer />

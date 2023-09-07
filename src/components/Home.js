@@ -6,6 +6,7 @@ import Particle from "./Particles";
 import Home2 from "./Home2";
 import AboutInst from "./AboutInst";
 
+
 function Home() {
   return (
     <section>
