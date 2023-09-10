@@ -65,17 +65,20 @@ class AboutInst extends Component {
                     </Row>
                     <Row>
                         <Col>
+                        <div>
                             <Card className="authority-card">
                                 <Card.Img variant="top" src={hod} alt="card-img" />
                                 <Card.Body>
                                     <Card.Title style={{ textAlign: "center" }}>Dr. R. M. Autee</Card.Title>
                                     <Card.Text style={{ textAlign: "center" }}>
-                                        Head of E&TC Department 
+                                        HOD of E&TC
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
+                            </div>
                         </Col>
                         <Col>
+                        <div>
                             <Card className="authority-card">
                                 <Card.Img variant="top" src={dean} alt="card-img" />
                                 <Card.Body>
@@ -85,9 +88,11 @@ class AboutInst extends Component {
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
+                            </div>
                         </Col>
 
                         <Col md={4}>
+                        <div>
                             <Card className="authority-card">
                                 <Card.Img variant="top" src={director} alt="card-img" />
                                 <Card.Body>
@@ -97,6 +102,7 @@ class AboutInst extends Component {
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
+                            </div>
                         </Col>
 
                     </Row>
