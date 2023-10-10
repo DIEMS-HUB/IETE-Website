@@ -30,7 +30,8 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
-
+#### Visit the official IETE DIEMS webpage:
+[IETE DIEMS](https://ietediems.in/)
 
 #### Connect with us: : 
 - [Instagram](https://instagram.com/iete_diems?igshid=mzrlodbinwflza==)
