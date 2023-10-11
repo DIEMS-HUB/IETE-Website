@@ -459,7 +459,6 @@ button:focus {
   bottom: 0;
   width: 100%;
   overflow: hidden;
-  position: fixed;
 }
 
 .footer-copywright {
