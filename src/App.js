@@ -14,6 +14,7 @@ import Join from './components/Join';
 import './App.css'
 import './Style.css'
 import About from './components/About';
+import SocailMeta from './components/SocialMeta'
 
 function App() {
   return (
@@ -27,13 +28,10 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/join" element={<Join />} />
           <Route path="*" element={<Error />} />
-
+          <Route path="/socialmeta-page" element={<SocailMeta />} />
         </Routes>
-        <Footer/>
+        <Footer />
       </Router>
-
-
-
     </>
   );
 }

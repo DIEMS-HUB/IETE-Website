@@ -10,7 +10,7 @@ import jivan from "../assets/coreteam/jivank.jpeg"
 import cochair from "../assets/coreteam/cochair.jpeg"
 import dikshit from "../assets/coreteam/dikshit.jpeg"
 import RajasK from "../assets/coreteam/RajasK.jpeg"
-
+import ChinmayaN from "../assets/coreteam/ChinmayaN.jpg"
 
 
 class CoreTeam extends Component {
@@ -106,6 +106,15 @@ class CoreTeam extends Component {
                                 title="Jivan Kharat"
                                 description="Social Media and Marketing Head"
                                 ghLink="https://www.linkedin.com/in/jivan-kharat/"
+                            />
+                        </Col>
+                        <Col md={4} className="project-card">
+                            <ProjectCard
+                                imgPath={ChinmayaN}
+                                isBlog={false}
+                                title="Chinmaya Nayak"
+                                description="Social Media Head"
+                                ghLink="https://www.linkedin.com/in/chinmaya-nayak-9916aa256"
                             />
                         </Col>
 
