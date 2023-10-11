@@ -88,7 +88,7 @@ function NavBar() {
                 Core Team
               </Nav.Link>
             </Nav.Item>
-            <Nav.Item>
+            {/* <Nav.Item>
               <Nav.Link
                 as={Link}
                 to="/join"
@@ -99,7 +99,7 @@ function NavBar() {
                 />{" "}
                 Join
               </Nav.Link>
-            </Nav.Item>
+            </Nav.Item> */}
 
 
             {/*If in future we need a contact page we can just uncomment this part*/}
