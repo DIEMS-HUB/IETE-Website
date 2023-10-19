@@ -104,7 +104,7 @@ class CoreTeam extends Component {
                                 imgPath={jivan}
                                 isBlog={false}
                                 title="Jivan Kharat"
-                                description="Social Media and Marketing Head"
+                                description="Social Media Head"
                                 ghLink="https://www.linkedin.com/in/jivan-kharat/"
                             />
                         </Col>
