@@ -57,6 +57,7 @@ class Join extends Component {
             >
               Join us
             </Button>
+            
           </Row>
         </Container>
       </Container>

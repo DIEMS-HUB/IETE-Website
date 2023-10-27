@@ -50,6 +50,7 @@ class Error extends Component {
                             <AiOutlineHome /> &nbsp;
                                 Homepage
                         </Button>
+                        
                     </Row>
                 </Container>
             </Container>

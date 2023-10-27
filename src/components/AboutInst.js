@@ -44,7 +44,7 @@ class AboutInst extends Component {
                                     marginRight: "30%"
                                 }}>
                                 Visit Official DIEMS page
-                            </Button>
+                            </Button>                          
 
 
                         </Col>

@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Aboutcard from './Aboutcard';
 import quoteasset from "../assets/quoteasset.png"
 import { motion } from 'framer-motion';
+import Button from 'react-bootstrap/Button';
 
 const fadeInAnimationvarient ={
     initial:{
@@ -30,6 +31,15 @@ class About extends Component {
                 }}
             >
             <Container fluid className="about-section">
+            <Button className="button-core-team" target="_blank"
+                                href={"https://ietediems.in/#/events"}
+                                style={{
+                                    display: "flex", justifyContent: "center", alignItems: "center", marginLeft: "30%",
+                                    marginRight: "30%"
+                                }}>
+                                Unveil Our Latest Event
+            </Button>
+
                 <Container>
                     <Row style={{ justifyContent: "center", padding: "10px" }}>
                     <Col

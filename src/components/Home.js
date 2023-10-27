@@ -38,6 +38,7 @@ function Home() {
                 <Type />
               </div>
             </Col>
+            
           </Row>
         </Container>
       </Container>
