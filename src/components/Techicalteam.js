@@ -6,30 +6,32 @@ class Techicalteam extends Component {
     render() {
         return (
             
-            <Table striped bordered hover >
-                                <thead >
+            <Table striped bordered hover className='associate-table'>
+                                <thead  >
                                     <tr>
                                         <th>#</th>
                                         <th>Technical Associates</th>
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr>
+                                <tr>
                                         <td>1</td>
-                                        <td>Ritesh Sonawane</td>
-                                    </tr>
-                                    <tr>
-                                        <td>2</td>
-                                        <td>Shubham Mergu</td>
-                                    </tr>
-                                    <tr>
-                                        <td>3</td>
                                         <td>Akshay Peherkar</td>
                                         
                                     </tr>
                                     <tr>
+                                        <td>2</td>
+                                        <td>Aman Pandey</td>
+                                        
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Chetan Lahane</td>
+                                        
+                                    </tr>
+                                    <tr>
                                         <td>4</td>
-                                        <td>Shraddha Ghule</td>
+                                        <td>Dhanush Gore</td>
                                         
                                     </tr>
                                     <tr>
@@ -49,45 +51,49 @@ class Techicalteam extends Component {
                                     </tr>
                                     <tr>
                                         <td>8</td>
-                                        <td>Yash Chavan</td>
-                                        
-                                    </tr>
-                                    <tr>
-                                        <td>9</td>
-                                        <td>Aman Pandey</td>
-                                        
-                                    </tr>
-                                    <tr>
-                                        <td>10</td>
-                                        <td>Dhanush Gore</td>
-                                        
-                                    </tr>
-                                    <tr>
-                                        <td>11</td>
-                                        <td>Rushikesh Avhale</td>
-                                        
-                                    </tr>
-                                    <tr>
-                                        <td>12</td>
-                                        <td>Chetan Lahane</td>
-                                        
-                                    </tr>
-                                    <tr>
-                                        <td>13</td>
-                                        <td>Uddhav Aher</td>
-                                        
-                                    </tr>
-                                    <tr>
-                                        <td>14</td>
-                                        <td>Tejas Kawde</td>
-                                        
-                                    </tr>
-                                    <tr>
-                                        <td>15</td>
                                         <td>Pankaj Koche</td>
                                         
                                     </tr>
                                    
+                                    <tr>
+                                        <td>9</td>
+                                        <td>Ritesh Sonawane</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10</td>
+                                        <td>Rushikesh Avhale</td>
+                                        
+                                    </tr>
+                                    <tr>
+                                        <td>11</td>
+                                        <td>Shraddha Ghule</td>
+                                        
+                                    </tr>
+                                    <tr>
+                                        <td>12</td>
+                                        <td>Shubham Mergu</td>
+                                    </tr>
+                                    <tr>
+                                        <td>13</td>
+                                        <td>Tejas Kawde</td>
+                                        
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td>14</td>
+                                        <td>Uddhav Aher</td>
+                                        
+                                    </tr>
+                                  
+                                    
+                                    <tr>
+                                        <td>15</td>
+                                        <td>Yash Chavan</td>
+                                        
+                                    </tr>
+                                    
+                                    
+                                    
                                 </tbody>
                             </Table>
             
