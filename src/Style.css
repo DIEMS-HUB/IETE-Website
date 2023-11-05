@@ -303,6 +303,15 @@ button:focus {
   color: #ffffff;
 }
 
+.associate-table{
+  background: rgba( 33, 37, 41, 0.25 );
+box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+backdrop-filter: blur( 17px );
+-webkit-backdrop-filter: blur( 17px );
+border-radius: 10px;
+
+}
+
 .home-logo-iete {
   background: rgba( 33, 37, 41, 0.25 );
 box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
