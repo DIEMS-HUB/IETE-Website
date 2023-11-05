@@ -11,6 +11,10 @@ import cochair from "../assets/coreteam/cochair.jpeg"
 import dikshit from "../assets/coreteam/dikshit.jpeg"
 import RajasK from "../assets/coreteam/RajasK.jpeg"
 import ChinmayaN from "../assets/coreteam/ChinmayaN.jpg"
+import Techicalteam from './Techicalteam';
+import ManagementTeam from './ManagementTeam';
+import SandCTeam from './SandCTeam';
+
 
 
 class CoreTeam extends Component {
@@ -53,7 +57,7 @@ class CoreTeam extends Component {
                                 ghLink="https://linkedin.com/in/aditya-simant"
                             />
                         </Col>
-                        
+
                         <Col md={3} className="project-card">
                             <ProjectCard
                                 imgPath={RajasK}
@@ -120,6 +124,22 @@ class CoreTeam extends Component {
 
 
 
+                    </Row>
+                    <Row>
+                    <h1 className="project-heading" style={{ textAlign: "center", margin:"2rem" }}>
+                        Meet our Team
+                    </h1>
+                    </Row>
+                    <Row  style={{opacity:"85%"}}>
+                        <Col>
+                            <Techicalteam />
+                        </Col>
+                        <Col>
+                        <ManagementTeam/>
+                        </Col>
+                        <Col>
+                        <SandCTeam/>
+                        </Col>
                     </Row>
                 </Container>
             </Container>
