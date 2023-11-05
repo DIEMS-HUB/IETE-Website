@@ -11,7 +11,7 @@ button:focus {
   box-shadow: none !important;
 }
 
-.co-ord-img{
+.co-ord-img {
   border-radius: 50%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-style: solid;
@@ -260,9 +260,16 @@ button:focus {
 }
 
 .home-section {
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
   position: relative;
   z-index: -1;
-  background-image: var(--image-gradient), url(./assets/websitelogo.png);
+  background-image: url(./assets/homebs.png);
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
@@ -296,10 +303,20 @@ button:focus {
   color: #ffffff;
 }
 
+.home-logo-iete {
+  background: rgba( 33, 37, 41, 0.25 );
+box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+backdrop-filter: blur( 17px );
+-webkit-backdrop-filter: blur( 17px );
+border-radius: 10px;
+}
+
 .main-logo-col {
   padding-bottom: 45px !important;
   margin-top: auto !important;
   margin-bottom: auto !important;
+  align-items: center !important;
+  justify-content: center !important;
 }
 
 .main-iete-logo {
@@ -620,12 +637,31 @@ button:focus {
 /* About */
 /* --------- */
 
-.about-section {
+.about-section-one{
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
-  color: white !important;
+  color: white !important; 
+
+}
+
+.about-section {
+  
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
+  z-index: -1;
+  background-image: url(./assets/homebs.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+  padding-bottom: 30px !important;
+  padding-top: 30px !important;
 }
 
 .tech-icons {
@@ -841,14 +877,14 @@ button:focus {
   background-color: #FA1632 !important;
 }
 
-.event-card{
+.event-card {
   color: white !important;
   background-color: transparent !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
 }
 
-.event-section{
+.event-section {
   padding-top: 150px !important;
   padding-bottom: 30px !important;
   position: relative !important;
@@ -858,7 +894,7 @@ button:focus {
   align-items: center !important;
 }
 
-.event-row{
+.event-row {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin: 2rem !important;
   border-radius: 8px;
@@ -866,7 +902,7 @@ button:focus {
   margin-bottom: 4rem !important;
 }
 
-.event-row:hover{
+.event-row:hover {
   scale: 105%;
   box-shadow: 0 4px 8px 0 rgba(255, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   transition: all 0.5s ease 0s !important;

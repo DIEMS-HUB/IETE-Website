@@ -11,7 +11,7 @@ import Card from "react-bootstrap/Card";
 class AboutInst extends Component {
     render() {
         return (
-            <Container fluid className="about-section">
+            <Container fluid className="about-section-one ">
                 <Container>
                     <Row style={{ justifyContent: "center", padding: "10px" }}>
                         <h1 className="diems-heading" style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
