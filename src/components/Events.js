@@ -52,32 +52,7 @@ class Events extends Component {
                         />
                     </Col>
                 </Row>
-                <Row className='event-row'>
-                    <Col md={8}>
-                        <Card className='event-card'>
-                            <Card.Body style={{ padding: "2rem" }}>
-
-                                <Card.Title><h2>Unveiling the secrets: Roadmap to GATE and IES</h2><Badge bg="warning" >Upcoming</Badge>
-
-
-                                </Card.Title>
-                                <Card.Text>
-                                Discover the path to success in GATE and IES on 7th Nov 2023 with our expert speaker, Hon. Shri. Anish Singh Rajput. Join us for an insightful webinar organized by the IETE Student Forum. Don't miss this opportunity to gain valuable insights and strategies for your engineering career. 
-                                </Card.Text>
-
-                            </Card.Body>
-                            
-                        </Card>
-                    </Col>
-                    <Col>
-                        <img
-                            src={speaker}
-                            alt="home pic"
-                            style={{ maxHeight: "200px", margin: "2rem" }}
-                            className="img-fluid"
-                        />
-                    </Col>
-                </Row>
+                
                 <Row className='event-row'>
                     <Col md={8}>
                         <Card className='event-card'>
@@ -109,12 +84,44 @@ class Events extends Component {
                         <Card className='event-card'>
                             <Card.Body style={{ padding: "2rem" }}>
 
+                                <Card.Title><h2>Unveiling the secrets: Roadmap to GATE and IES</h2><Badge bg="danger" >Ended</Badge>
+
+
+                                </Card.Title>
+                                <Card.Text>
+                                Discover the path to success in GATE and IES on 7th Nov 2023 with our expert speaker, Hon. Shri. Anish Singh Rajput. Join us for an insightful webinar organized by the IETE Student Forum. Don't miss this opportunity to gain valuable insights and strategies for your engineering career. 
+                                </Card.Text>
+                                <Button className="button-core-team" target='_blank' href="https://drive.google.com/drive/folders/15YWBkg75GgWGJKln0Zg-l__NTzWeam_v?usp=sharing"
+                                style={{ display: "flex", justifyContent: "center", alignItems: "center", width:"fit-content" }}>
+                                View Photos
+                            </Button>
+                            </Card.Body>
+                            
+                        </Card>
+                    </Col>
+                    <Col>
+                        <img
+                            src={speaker}
+                            alt="home pic"
+                            style={{ maxHeight: "200px", margin: "2rem" }}
+                            className="img-fluid"
+                        />
+                    </Col>
+                </Row>
+                <Row className='event-row'>
+                    <Col md={8}>
+                        <Card className='event-card'>
+                            <Card.Body style={{ padding: "2rem" }}>
+
                                 <Card.Title><h2> A New Start! </h2><Badge bg="danger" >Ended</Badge>
                                 </Card.Title>
                                 <Card.Text>
                                     You're cordially invited to the IETE Forum Inauguration at Deogiri Institute of Engineering and Management Studies. Join us on 27th Oct 2024 to celebrate the launch of this vibrant platform for electronics and telecommunications enthusiasts. Expect insightful speakers, networking opportunities, and a journey into the future of technology. Don't miss this exciting event!
                                 </Card.Text>
-
+                                <Button className="button-core-team" target='_blank' href="https://drive.google.com/file/d/1CqbPr63T1bC89nu9UE-bSqei8djVNqis/view"
+                                style={{ display: "flex", justifyContent: "center", alignItems: "center", width:"fit-content" }}>
+                                View Report
+                            </Button>
                             </Card.Body>
                             
                         </Card>
