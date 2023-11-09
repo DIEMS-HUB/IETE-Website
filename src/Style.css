@@ -479,6 +479,14 @@ border-radius: 10px;
   left: 0;
   width: 100%;
   overflow: hidden;
+  align-items: center !important;
+  justify-content: center !important;
+  justify-items: center !important;
+}
+
+.membership-no{
+  text-align: center !important;
+
 }
 
 .footer-copywright {
@@ -909,4 +917,10 @@ border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(255, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   transition: all 0.5s ease 0s !important;
 
+}
+
+.button-core-team-bottom{
+  background-color: #FA1632 !important;
+  margin-left: auto;
+  margin-right: auto;
 }

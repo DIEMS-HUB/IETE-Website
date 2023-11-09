@@ -14,6 +14,8 @@ import ChinmayaN from "../assets/coreteam/ChinmayaN.jpg"
 import Techicalteam from './Techicalteam';
 import ManagementTeam from './ManagementTeam';
 import SandCTeam from './SandCTeam';
+import { Button } from "react-bootstrap";
+
 
 
 
@@ -140,6 +142,12 @@ class CoreTeam extends Component {
                         <Col>
                         <SandCTeam/>
                         </Col>
+                    </Row>
+                    <Row>
+                    <Button className="button-core-team-bottom" target='_blank' href="https://drive.google.com/file/d/1zp-iVTxhRxhpcACub2sZ1LIga9HI3E1T/view"
+                                style={{ display: "flex", justifyContent: "center", alignItems: "center", width:"fit-content" }}>
+                                View all Members
+                            </Button>
                     </Row>
                 </Container>
             </Container>

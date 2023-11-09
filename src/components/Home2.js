@@ -68,6 +68,7 @@ class Home2 extends Component{
           <About />
           <Faculty />
         </Container>
+        
       </Container>
     </section>
     )
