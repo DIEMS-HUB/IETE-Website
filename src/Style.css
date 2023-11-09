@@ -349,7 +349,7 @@ button:focus {
   }
 }
 
-.home-about-section {
+.home-about-section,.recent-section {
   position: relative;
   padding-bottom: 70px !important;
   padding-top: 70px !important;
@@ -371,7 +371,7 @@ button:focus {
   margin-right: 15em !important;
 }
 
-.home-about-description {
+.home-about-description,.recent-description {
   color: white !important;
   margin-left: 50px;
   margin-right: 50px;
@@ -676,6 +676,10 @@ button:focus {
   .about-img {
     padding-top: 0 !important;
   }
+
+  .heading-name{
+    font-size: 1.5em !important;
+  }
 }
 
 /* --------- */
@@ -813,7 +817,6 @@ button:focus {
   background: #FA1632 !important;
   border: #FA1632 !important;
   z-index: "10px";
-
 }
 
 .button-core-team:hover {
