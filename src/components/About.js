@@ -35,10 +35,10 @@ class About extends Component {
                     <Col
                             md={5}
                             style={{ paddingTop: "120px", paddingBottom: "50px" }}
-                            className="about-img  "
+                            className="about-img"
                             
                         >
-                            <img src={quoteasset} alt="about" className="img-fluid main-iete-logo" />
+                            <img src={quoteasset} alt="about" className="img-fluid  home-logo-iete" />
                         </Col>
                         <Col
                             md={7}
@@ -48,9 +48,7 @@ class About extends Component {
                                 paddingBottom: "50px",
                             }}
                         >
-                            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-                                About us
-                            </h1>
+                            
                             <Aboutcard />
                         </Col>
                         

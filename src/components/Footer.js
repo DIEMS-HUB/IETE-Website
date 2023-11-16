@@ -10,6 +10,7 @@ function Footer() {
       <Row>
         <Col md="4" className="footer-copywright">
           <h3>Designed and developed by IETE DIEMS Technical team</h3>
+          <h3 >Membership Number: ISFC-1116</h3>
         </Col>
 
         <Col md="4" className="footer-body">
@@ -41,6 +42,7 @@ function Footer() {
         <Col md="4" className="footer-copywright">
           <h3>Contact: iete@dietms.org</h3>
         </Col>
+        
       </Row>
     </Container>
   );

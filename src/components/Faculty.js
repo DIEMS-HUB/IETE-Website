@@ -77,6 +77,7 @@ class Faculty extends Component {
 
               </Col>
             </Row>
+          
           </motion.div>
         </Container>
       </Container>

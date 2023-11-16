@@ -11,6 +11,12 @@ import cochair from "../assets/coreteam/cochair.jpeg"
 import dikshit from "../assets/coreteam/dikshit.jpeg"
 import RajasK from "../assets/coreteam/RajasK.jpeg"
 import ChinmayaN from "../assets/coreteam/ChinmayaN.jpg"
+import Techicalteam from './Techicalteam';
+import ManagementTeam from './ManagementTeam';
+import SandCTeam from './SandCTeam';
+import { Button } from "react-bootstrap";
+
+
 
 
 class CoreTeam extends Component {
@@ -26,7 +32,7 @@ class CoreTeam extends Component {
                         Meet our IETE DIEMS members
                     </p>
                     <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-                        <Col md={4} className="project-card">
+                        <Col md={3} className="project-card">
                             <ProjectCard
                                 imgPath={pratikg}
                                 isBlog={false}
@@ -35,7 +41,7 @@ class CoreTeam extends Component {
                                 ghLink="https://www.linkedin.com/in/pratik-gawande"
                             />
                         </Col>
-                        <Col md={4} className="project-card">
+                        <Col md={3} className="project-card">
                             <ProjectCard
                                 imgPath={cochair}
                                 isBlog={false}
@@ -44,7 +50,7 @@ class CoreTeam extends Component {
                                 ghLink="https://www.linkedin.com/in/ashvini-ghuge-b3778027b"
                             />
                         </Col>
-                        <Col md={4} className="project-card">
+                        <Col md={3} className="project-card">
                             <ProjectCard
                                 imgPath={adityasimant}
                                 isBlog={false}
@@ -53,8 +59,8 @@ class CoreTeam extends Component {
                                 ghLink="https://linkedin.com/in/aditya-simant"
                             />
                         </Col>
-                        
-                        <Col md={4} className="project-card">
+
+                        <Col md={3} className="project-card">
                             <ProjectCard
                                 imgPath={RajasK}
                                 isBlog={false}
@@ -63,7 +69,7 @@ class CoreTeam extends Component {
                                 ghLink="https://www.linkedin.com/in/rajas-kapre"
                             />
                         </Col>
-                        <Col md={4} className="project-card">
+                        <Col md={3} className="project-card">
                             <ProjectCard
                                 imgPath={renukam}
                                 isBlog={false}
@@ -72,7 +78,7 @@ class CoreTeam extends Component {
                                 ghLink="https://www.linkedin.com/in/renuka-mudhalwadkar-698966253"
                             />
                         </Col>
-                        <Col md={4} className="project-card">
+                        <Col md={3} className="project-card">
                             <ProjectCard
                                 imgPath={dikshit}
                                 isBlog={false}
@@ -81,7 +87,7 @@ class CoreTeam extends Component {
                                 ghLink="https://www.linkedin.com/in/sarthak-bhole/"
                             />
                         </Col>
-                        <Col md={4} className="project-card">
+                        <Col md={3} className="project-card">
                             <ProjectCard
                                 imgPath={SSurya}
                                 isBlog={false}
@@ -90,7 +96,7 @@ class CoreTeam extends Component {
                                 ghLink="https://www.linkedin.com/in/sharda-suryawanshi-728584240"
                             />
                         </Col>
-                        <Col md={4} className="project-card">
+                        <Col md={3} className="project-card">
                             <ProjectCard
                                 imgPath={mitaliW}
                                 isBlog={false}
@@ -99,16 +105,16 @@ class CoreTeam extends Component {
                                 ghLink="https://www.linkedin.com/in/mitali-wagh-545a11207/"
                             />
                         </Col>
-                        <Col md={4} className="project-card">
+                        <Col md={3} className="project-card">
                             <ProjectCard
                                 imgPath={jivan}
                                 isBlog={false}
                                 title="Jivan Kharat"
-                                description="Social Media and Marketing Head"
+                                description="Social Media Head"
                                 ghLink="https://www.linkedin.com/in/jivan-kharat/"
                             />
                         </Col>
-                        <Col md={4} className="project-card">
+                        <Col md={3} className="project-card">
                             <ProjectCard
                                 imgPath={ChinmayaN}
                                 isBlog={false}
@@ -120,6 +126,28 @@ class CoreTeam extends Component {
 
 
 
+                    </Row>
+                    <Row>
+                    <h1 className="project-heading" style={{ textAlign: "center", margin:"2rem" }}>
+                        Meet our Team
+                    </h1>
+                    </Row>
+                    <Row  style={{opacity:"85%"}}>
+                        <Col>
+                            <Techicalteam />
+                        </Col>
+                        <Col>
+                        <ManagementTeam/>
+                        </Col>
+                        <Col>
+                        <SandCTeam/>
+                        </Col>
+                    </Row>
+                    <Row>
+                    <Button className="button-core-team-bottom" target='_blank' href="https://drive.google.com/file/d/1zp-iVTxhRxhpcACub2sZ1LIga9HI3E1T/view"
+                                style={{ display: "flex", justifyContent: "center", alignItems: "center", width:"fit-content" }}>
+                                View all Members
+                            </Button>
                     </Row>
                 </Container>
             </Container>

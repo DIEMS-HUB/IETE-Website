@@ -9,6 +9,9 @@ class Aboutcard extends Component {
             
             <Card className="quote-card-view">
                 <Card.Body>
+                <h1 style={{ fontSize: "2.1em", paddingBottom: "20px", color:"#fffff" }}>
+                                About us
+                            </h1>
                     <blockquote className="blockquote mb-0">
                         <p style={{ textAlign: "justify" }}>
                         <b className="purple">IETE DIEMS ISF </b>  began as a small group of enthusiasts who shared a passion for electronics and technology. We've evolved into a thriving community that fosters creativity and learning through workshops, seminars, and events.
