@@ -5,6 +5,7 @@ import Type from "./Type";
 import Particle from "./Particles";
 import Home2 from "./Home2";
 import AboutInst from "./AboutInst";
+import RecentEvents from "./RecentEvents";
 
 
 function Home() {
@@ -41,6 +42,7 @@ function Home() {
           </Row>
         </Container>
       </Container>
+      <RecentEvents/>
       <AboutInst/>
       <Home2/>
     </section>
