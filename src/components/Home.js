@@ -5,30 +5,31 @@ import Type from "./Type";
 import Particle from "./Particles";
 import Home2 from "./Home2";
 import AboutInst from "./AboutInst";
+import RecentEvents from "./RecentEvents";
 
 
 function Home() {
   return (
     <section>
       <Container fluid className="home-section" id="home">
-      <Particle />
+        <Particle />
         <Container className="home-content">
           <Row>
-       
+
             <Col className="main-logo-col">
               <img
                 src={homeLogo}
                 alt="home pic"
-                style={{ maxHeight: "450px"}}
+                style={{ maxHeight: "450px" }}
                 className="img-fluid home-logo-iete"
               />
             </Col>
             <Col md={7} className="home-header" >
-              
+
               <h2 className="heading-name">
-                Welcome to 
-                 < span className="main-name"> Deogiri Institute of Engineering and Management Studies </span>
-                 <div className="iete-name">IETE Student Forum</div>
+                Welcome to
+                < span className="main-name"> Deogiri Institute of Engineering and Management Studies </span>
+                <div className="iete-name">IETE Student Forum</div>
               </h2>
               <div>
 
@@ -41,8 +42,9 @@ function Home() {
           </Row>
         </Container>
       </Container>
-      <AboutInst/>
-      <Home2/>
+      <RecentEvents />
+      <AboutInst />
+      <Home2 />
     </section>
   );
 }

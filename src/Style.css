@@ -125,7 +125,18 @@ button:focus {
   transform: rotate(-135deg) !important;
   opacity: 0.9 !important;
 }
+@media (max-width:767px) {
+  .heading-name-recent{
+    font-size: 25px;
+  }
+  .recent-para{
+    font-size: 8px !important;
+  }
+}
 
+.recent-para{
+  font-size: 20px !important;
+}
 @media (max-width: 767px) {
   .navbar {
     padding: 1rem 2rem !important;
@@ -648,7 +659,7 @@ border-radius: 10px;
 /* About */
 /* --------- */
 
-.about-section-one{
+.about-section-one,.recent-section{
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
