@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-// import underconst from "../assets/undraw_under_construction_-46-pa.svg"
 import Card from 'react-bootstrap/Card';
-//import inaugration from '../assets/Inaugration.png'
 import inauguration from '../assets/inaugration2.png'
 import blogstar from '../assets/blogstar.png'
 import Badge from 'react-bootstrap/Badge';
@@ -94,6 +92,10 @@ class Events extends Component {
                                 <Button className="button-core-team" target='_blank' href="https://drive.google.com/drive/folders/15YWBkg75GgWGJKln0Zg-l__NTzWeam_v?usp=sharing"
                                 style={{ display: "flex", justifyContent: "center", alignItems: "center", width:"fit-content" }}>
                                 View Photos
+                            </Button>
+                                <Button className="button-core-team" target='_blank' href="https://youtu.be/5Eo4zPQLhx0"
+                                style={{ marginTop: "10px"}}>
+                                YouTube
                             </Button>
                             </Card.Body>
                             

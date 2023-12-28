@@ -10,7 +10,6 @@ import CoreTeam from './components/CoreTeam';
 import Home from './components/Home';
 
 import Footer from './components/Footer';
-import Join from './components/Join';
 import './App.css'
 import './Style.css'
 import About from './components/About';
@@ -26,7 +25,6 @@ function App() {
           <Route path="/events" element={<Events />} />
           <Route path="/coreteam" element={<CoreTeam />} />
           <Route path="/about" element={<About />} />
-          <Route path="/join" element={<Join />} />
           <Route path="*" element={<Error />} />
           <Route path="/socialmeta-page" element={<SocailMeta />} />
         </Routes>
