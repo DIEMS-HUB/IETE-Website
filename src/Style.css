@@ -737,3 +737,23 @@ border-radius: 10px;
   margin-left: auto;
   margin-right: auto;
 }
+
+/* for section of events */
+.side-space{
+  margin-left: 150px;
+  margin-right: 150px;
+  font-size: 20px;
+}
+
+.nav-tabs .nav-link{
+  color:white;
+}
+
+.nav-tabs .nav-link:hover{
+  color:white;
+}
+
+.DateColor{
+  color: rgb(239, 20, 20);
+  font-weight: bold;
+}
