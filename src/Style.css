@@ -740,8 +740,8 @@ border-radius: 10px;
 
 /* for section of events */
 .side-space{
-  margin-left: 150px;
-  margin-right: 150px;
+  margin-left: 10%;
+  margin-right: 10%;
   font-size: 20px;
 }
 
@@ -756,4 +756,9 @@ border-radius: 10px;
 .DateColor{
   color: rgb(239, 20, 20);
   font-weight: bold;
+}
+
+.img-center{
+  margin-top: 12%;
+  margin-bottom: 12%;
 }
